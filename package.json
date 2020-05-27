@@ -1,7 +1,7 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A custom theme for ghost",
-    "demo": "https://starter.ghost.io",
+    "name": "bear",
+    "description": "A minimal theme for ghost",
+    "demo": "https://bear.ghost.io",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=3.0.0",
@@ -39,10 +39,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/TryGhost/bear.git"
     },
-    "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "bugs": "https://github.com/TryGhost/bear/issues",
+    "contributors": "https://github.com/TryGhost/bear/graphs/contributors",
     "devDependencies": {
         "autoprefixer": "9.8.0",
         "cssnano": "4.1.10",
