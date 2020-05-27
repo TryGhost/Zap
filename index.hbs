@@ -1,15 +1,17 @@
 {{!< default}}
 
-<div class="gh-page">
-    <div class="gh-container">
+<ul>
+{{#foreach posts}}
 
-        <div class="gh-postfeed">
-        {{#foreach posts}}
+    <li>
+        #{{@number}}
+        <i>
+            <time datetime="{{date format="YYYY-MM-DD"}}" pubdate>
+                - {{date format="D MMM, YYYY"}} -
+            </time>
+        </i>
+        <a href="{{url}}">{{title}}</a>
+    </li>
 
-            {{> "card"}} {{!-- partials/card.hbs --}}
-
-        {{/foreach}}
-        </div>
-
-    </div>
-</div>
+{{/foreach}}
+</ul>
