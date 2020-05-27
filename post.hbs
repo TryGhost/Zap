@@ -1,8 +1,13 @@
 {{!< default}}
 
 {{#post}}
+
+<h1>{{title}}</h1>
+<p><i><time datetime="{{date format="YYYY-MM-DD"}}" pubdate>{{date format="D MMM, YYYY"}}</time></i></p>
+
 <content>
     <h1>{{title}}</h1>
     {{content}}
 </content>
+
 {{/post}}
