@@ -69,7 +69,11 @@
 
 <header>
     <h2>{{@site.title}}</h2>
-    {{navigation}}
+    <nav>
+    {{#foreach navigation}}
+        <a href="{{url absolute="true"}}">{{label}}</a>
+    {{/foreach}}
+    </nav>
 </header>
 
 <main>
