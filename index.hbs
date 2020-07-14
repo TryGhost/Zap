@@ -1,16 +1,9 @@
 {{!< default}}
 
-<ul>
-{{#foreach posts}}
-
-    <li>
-        <i>
-            <time datetime="{{date format="YYYY-MM-DD"}}">
-                {{date format="D MMM, YYYY"}} -
-            </time>
-        </i>
-        <a href="{{url}}">{{title}}</a>
-    </li>
-
-{{/foreach}}
-</ul>
+<div class="gh-container">
+    <ul>
+        {{#foreach posts}}
+        <li><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM, YYYY"}} -</time> <a href="{{url}}">{{title}}</a></li>
+        {{/foreach}}
+    </ul>
+</div>

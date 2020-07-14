@@ -4,45 +4,23 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>{{meta_title}}</title>
     {{ghost_head}}
 
-    <style>
-    body {
-      font-family: Verdana, sans-serif;
-      margin: auto;
-      padding: 20px;
-      max-width: 720px;
-      text-align: left;
-      background-color: white;
-      word-wrap: break-word;
-      overflow-wrap: break-word
-    }
-
-    a { color: #3273dc; }
-    h2 a { font-weight: 400; color: #000; text-decoration: none }
-    nav a { margin-right: 10px }
-    textarea { width: 100%; font-size: 0.8em }
-    table { width: 100% }
-    figure { margin: 0 }
-    img { max-width: 100%; }
-
-    pre code {
-      background-color: #eee;
-      border-left: 1px solid #999;
-      display: block;
-      padding: 15px;
-      white-space: pre-wrap
-    }
-
-    footer { padding: 25px; text-align: center }
-  </style>
+    <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
 
 </head>
-<body>
+<body {{body_class}}>
 
-<header>
-    <h2>{{@site.title}}</h2>
+<header class="gh-head">
+    <a href="{{@site.url}}">
+    {{#if @site.icon}}
+        <img class="site-icon" src="{{img_url @site.icon absolute="true"}}" width="50" height="50" alt="{{@site.title}}" />
+    {{else}}
+        <h2>{{@site.title}}</h2>
+    {{/if}}
+    </a>
     {{navigation}}
 </header>
 
@@ -50,8 +28,16 @@
     {{{body}}}
 </main>
 
-<footer>
-    Made with <a href="https://ghost.org">Ghost</a>
+<footer class="page-footer">
+    {{#if @site.icon}}
+    <img class="site-icon" src="{{img_url @site.icon absolute="true"}}" width="50" height="50" alt="{{@site.title}}" />
+    {{/if}}
+    <h3>{{@site.title}}</h3>
+    {{#if @site.description}}
+    <p>{{@site.description}}</p>
+    {{/if}}
+    <p><a href="{{@site.url}}">Read more posts →</a></p>
+    <a class="gh-powered" href="https://ghost.org" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 156"><g fill="none" fill-rule="evenodd"><rect fill="#15212B" width="156" height="156" rx="27"></rect><g transform="translate(36 36)" fill="#F6F8FA"><path d="M0 71.007A4.004 4.004 0 014 67h26a4 4 0 014 4.007v8.986A4.004 4.004 0 0130 84H4a4 4 0 01-4-4.007v-8.986zM50 71.007A4.004 4.004 0 0154 67h26a4 4 0 014 4.007v8.986A4.004 4.004 0 0180 84H54a4 4 0 01-4-4.007v-8.986z"></path><rect y="34" width="84" height="17" rx="4"></rect><path d="M0 4.007A4.007 4.007 0 014.007 0h41.986A4.003 4.003 0 0150 4.007v8.986A4.007 4.007 0 0145.993 17H4.007A4.003 4.003 0 010 12.993V4.007z"></path><rect x="67" width="17" height="17" rx="4"></rect></g></g></svg> Publish with Ghost</a>
 </footer>
 
 {{ghost_foot}}

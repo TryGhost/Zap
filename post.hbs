@@ -2,10 +2,13 @@
 
 {{#post}}
 
-<h1>{{title}}</h1>
-<p><i><time datetime="{{date format="YYYY-MM-DD"}}" pubdate>{{date format="D MMM, YYYY"}}</time></i></p>
-<content>
+<header class="gh-header">
+    <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
+    <h1>{{title}}</h1>
+</header>
+
+<section class="gh-content">
     {{content}}
-</content>
+</section>
 
 {{/post}}
