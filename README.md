@@ -1,3 +1,3 @@
-# Bear Ghost Theme
+# Zap Ghost Theme
 
-A minimal theme for Ghost.
+An ultra-minimal theme for Ghost.
