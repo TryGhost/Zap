@@ -4,7 +4,7 @@
 :root {
 
     /* Colours */
-    --color-primary: #1292ee;
+    --color-primary: #0077cc;
     --color-base: #131313;
     --color-grey: #848e95;
     --color-border: #e2e8ec;
@@ -45,7 +45,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    color: color-mod(var(--color-base) l(+10%));
+    color: #212427;
     font-family: var(--font-sans-serif);
     font-size: 1.5rem;
     line-height: 1.6em;
