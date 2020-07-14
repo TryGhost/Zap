@@ -45,7 +45,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    color: #212427;
+    color: #273033;
     font-family: var(--font-sans-serif);
     font-size: 1.5rem;
     line-height: 1.6em;
@@ -172,11 +172,11 @@ h5,
 h6 {
     margin: 0;
     line-height: 1.15em;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 4.6rem;
+    font-size: 3.6rem;
     letter-spacing: -0.5px;
 }
 @media (max-width: 500px) {
@@ -186,7 +186,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3.6rem;
+    font-size: 3rem;
 }
 @media (max-width: 500px) {
     h2 {
@@ -195,7 +195,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
 }
 @media (max-width: 500px) {
     h3 {
@@ -213,6 +213,10 @@ h5 {
 
 h6 {
     font-size: 2.2rem;
+}
+
+strong {
+    font-weight: 600;
 }
 
 a.gh-powered,
@@ -260,7 +264,7 @@ a.gh-powered svg {
 }
 
 .gh-head {
-    padding: 6vmin 4vmin;
+    padding: 6vmin 0 4vmin;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -268,20 +272,31 @@ a.gh-powered svg {
 }
 
 .gh-head a {
+    display: inline-block;
     color: currentColor;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
-.nav {
+ul.nav {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 1rem 0 0 0;
+    padding: 0 0 4vmin 0;
+    border-bottom: var(--color-border) 1px solid;
 }
 
-.nav a {
+ul.nav a {
     margin: 0 1vmin;
     padding: 5px;
+}
+
+ul.nav a:hover {
+    color: var(--color-primary);
 }
 
 
@@ -347,37 +362,27 @@ a.gh-powered svg {
 /* ---------------------------------------------------------- */
 
 .gh-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0 0 8vmin 0;
     text-align: center;
 }
 
+.gh-feature-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 4vmin auto 0;
+}
+
 .gh-post-meta {
     display: block;
-    margin: 1rem 0 0;
+    margin: 0.5rem 0 0;
     font-size: 1.3rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: var(--color-grey);
     font-weight: 500;
-}
-
-.gh-post-meta a {
-    text-decoration: none;
-    color: var(--color-grey);
-}
-
-.gh-post-meta a:hover {
-    color: var(--color-primary);
-}
-
-.gh-feature-image {
-    grid-column: wide-start / wide-end;
-    width: 100%;
-    margin: 8vmin 0 0;
-}
-
-.gh-post-footer {
-    margin: 2rem 0;
 }
 
 
@@ -461,10 +466,9 @@ a.gh-powered svg {
 .gh-content > ul,
 .gh-content > dl,
 .gh-content > p {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 1.6em;
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 1.55em;
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
 }
@@ -504,7 +508,7 @@ a.gh-powered svg {
     .gh-content ul,
     .gh-content dl,
     .gh-content p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .gh-content blockquote::before {
@@ -745,24 +749,10 @@ a.gh-powered svg {
 /* ---------------------------------------------------------- */
 
 .page-footer {
-    padding: 60px 5vmin;
-    margin: 60px auto 0;
+    width: 100%;
+    max-width: 600px;
+    padding: 6vmin 4vmin 6vmin;
+    margin: 6vmin auto 0;
+    border-top: var(--color-border) 1px solid;
     text-align: center;
-    background-color: #f8f8f8;
-}
-
-.page-footer h3 {
-    margin: 0.5rem 0 0 0;
-}
-
-.page-footer p {
-    max-width: 500px;
-    margin: 1rem auto 1.5rem;
-    font-size: 1.7rem;
-    line-height: 1.5em;
-    color: rgba(0,0,0,0.6);
-}
-
-.page-footer .gh-powered {
-    margin-top: 30px;
 }
