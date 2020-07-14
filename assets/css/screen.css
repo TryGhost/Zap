@@ -275,9 +275,6 @@ a.gh-powered svg {
     display: inline-block;
     color: currentColor;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    font-weight: 500;
 }
 
 ul.nav {
@@ -293,6 +290,9 @@ ul.nav {
 ul.nav a {
     margin: 0 1vmin;
     padding: 5px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 ul.nav a:hover {
