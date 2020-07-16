@@ -1,19 +1,23 @@
 
 {{!< default}}
 
-<h1>{{statusCode}}</h1>
-<p>{{message}}</p>
+<header class="gh-header">
+    <h1>{{statusCode}}</h1>
+    <p>{{message}}</p>
+</header>
 
-{{#if errorDetails}}
-<ul>
-    {{#foreach errorDetails}}
-    <li>
-        <h5>{{{rule}}}</h5>
-        {{#foreach failures}}
-        <span><strong>Ref:</strong> {{ref}}</span><br>
-        <span><strong>Message:</strong> {{message}}</span>
+<section class="gh-content">
+    {{#if errorDetails}}
+    <ul>
+        {{#foreach errorDetails}}
+        <li>
+            <h5>{{{rule}}}</h5>
+            {{#foreach failures}}
+            <span><strong>Ref:</strong> {{ref}}</span><br>
+            <span><strong>Message:</strong> {{message}}</span>
+            {{/foreach}}
+        </li>
         {{/foreach}}
-    </li>
-    {{/foreach}}
-</ul>
-{{/if}}
+    </ul>
+    {{/if}}
+</section>
