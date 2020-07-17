@@ -264,7 +264,7 @@ a.gh-powered svg {
 }
 
 .gh-head {
-    padding: 6vmin 0 4vmin;
+    padding: 6vmin 0 30px;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -283,7 +283,7 @@ ul.nav {
     justify-content: center;
     flex-wrap: wrap;
     margin: 1rem 0 0 0;
-    padding: 0 0 4vmin 0;
+    padding: 0 0 30px 0;
     border-bottom: var(--color-border) 1px solid;
 }
 
@@ -372,7 +372,7 @@ ul.nav a:hover {
 .gh-feature-image {
     width: 100%;
     max-width: 800px;
-    margin: 4vmin auto 0;
+    margin: 30px auto 0;
 }
 
 .gh-post-meta {
@@ -751,8 +751,8 @@ ul.nav a:hover {
 .page-footer {
     width: 100%;
     max-width: 600px;
-    padding: 6vmin 4vmin 6vmin;
-    margin: 6vmin auto 0;
+    padding: 40px 4vmin;
+    margin: 40px auto 0;
     border-top: var(--color-border) 1px solid;
     text-align: center;
 }

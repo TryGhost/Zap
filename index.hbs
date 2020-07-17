@@ -2,7 +2,7 @@
 
 <div class="gh-container">
     <ul>
-        {{#foreach posts}}
+        {{#foreach posts visibility="all"}}
         <li><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM, YYYY"}} -</time> <a href="{{url}}">{{title}}</a></li>
         {{/foreach}}
     </ul>
