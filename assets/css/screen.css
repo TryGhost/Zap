@@ -303,7 +303,15 @@ ul.nav a:hover {
 /* Index
 /* ---------------------------------------------------------- */
 
+.gh-postfeed .post {
+    display: block;
+    padding: 1vmin 0;
+}
 
+.gh-postfeed .post span {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
 
 
 /* Page
