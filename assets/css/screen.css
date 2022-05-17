@@ -385,7 +385,7 @@ ul.nav a:hover {
     font-size: 1.3rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    color: var(--color-grey);
+    color: #555;
     font-weight: 500;
 }
 
