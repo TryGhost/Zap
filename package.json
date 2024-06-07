@@ -4,21 +4,18 @@
     "demo": "https://zap.ghost.io",
     "version": "1.0.0",
     "engines": {
-        "ghost": ">=3.0.0",
-        "ghost-api": "v3"
+        "ghost": ">=5.0.0"
     },
     "license": "MIT",
     "screenshots": {
         "desktop": "assets/screenshot-desktop.jpg"
     },
     "scripts": {
-        "dev": "gulp",
-        "zip": "gulp zip",
-        "test": "gscan .",
-        "test:ci": "gscan --fatal --verbose .",
-        "pretest": "gulp build",
-        "preship": "yarn test",
-        "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
+        "dev": "npx tailwindcss -i ./assets/css/screen.css -o ./assets/built/screen.css --watch",
+        "build": "npx tailwindcss -o ./assets/built/screen.css --minify",
+        "zip": "npm run build && bestzip $npm_package_name.zip assets/* partials/* members/* *.hbs package.json",
+        "test": "npx gscan .",
+        "pretest": "npm run build"
     },
     "author": {
         "name": "Ghost Foundation",
@@ -29,7 +26,7 @@
         "type": "theme",
         "categories": [
             "Minimal",
-            "Magazine"
+            "Personal"
         ]
     },
     "keywords": [
@@ -44,19 +41,7 @@
     "bugs": "https://github.com/TryGhost/zap/issues",
     "contributors": "https://github.com/TryGhost/zap/graphs/contributors",
     "devDependencies": {
-        "autoprefixer": "9.8.0",
-        "cssnano": "4.1.10",
-        "gscan": "3.5.4",
-        "gulp": "4.0.2",
-        "gulp-livereload": "4.0.2",
-        "gulp-postcss": "8.0.0",
-        "gulp-sourcemaps": "2.6.5",
-        "gulp-uglify": "3.0.2",
-        "gulp-util": "3.0.8",
-        "gulp-watch": "5.0.1",
-        "gulp-zip": "5.0.1",
-        "postcss-color-mod-function": "3.0.3",
-        "postcss-easy-import": "3.0.0"
+        "bestzip": "^2.2.1"
     },
     "browserslist": [
         "defaults"
