@@ -3,13 +3,12 @@ name: Deploy Theme
 on:
   push:
     branches:
-      - master
       - main
 jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@v1
         with:
