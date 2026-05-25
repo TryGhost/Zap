@@ -25,7 +25,7 @@ npx gscan .
 
 # Contribution
 
-This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
+If you're looking to contribute or raise an issue, head over to the [TryGhost/Zap](https://github.com/TryGhost/Zap) repository.
 
 # Copyright & License
 
