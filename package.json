@@ -42,6 +42,11 @@
     "devDependencies": {
         "gscan": "6.2.0"
     },
+    "resolutions": {
+        "node-loggly-bulk": "4.0.2",
+        "node-loggly-bulk/axios": "1.16.0",
+        "**/handlebars": "4.7.9"
+    },
     "config": {
         "posts_per_page": 15,
         "image_sizes": {
