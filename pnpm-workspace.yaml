@@ -1,0 +1,3 @@
+# pnpm v11 stores dependency build-script approvals here.
+allowBuilds:
+  dtrace-provider: true

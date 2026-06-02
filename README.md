@@ -16,11 +16,14 @@ Zap is intentionally small. You can edit the Handlebars templates in the theme r
 From the theme's root directory:
 
 ```bash
+# Enable the package manager pinned in package.json
+corepack enable
+
 # Install dependencies
-yarn
+pnpm install
 
 # Check theme compatibility
-npx gscan .
+pnpm test
 ```
 
 # Contribution
