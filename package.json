@@ -40,7 +40,7 @@
     "bugs": "https://github.com/TryGhost/zap/issues",
     "contributors": "https://github.com/TryGhost/zap/graphs/contributors",
     "devDependencies": {
-        "gscan": "6.2.0"
+        "gscan": "6.2.1"
     },
     "config": {
         "posts_per_page": 15,
