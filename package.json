@@ -12,7 +12,8 @@
         "desktop": "assets/screenshot-desktop.jpg"
     },
     "scripts": {
-        "zip": "bestzip $npm_package_name.zip assets/* partials/* members/* *.hbs package.json",
+        "zip": "mkdir -p dist && bestzip dist/$npm_package_name.zip assets/* *.hbs package.json",
+        "pretest": "pnpm run zip",
         "test": "gscan ."
     },
     "author": {
@@ -39,6 +40,7 @@
     "bugs": "https://github.com/TryGhost/zap/issues",
     "contributors": "https://github.com/TryGhost/zap/graphs/contributors",
     "devDependencies": {
+        "bestzip": "3.0.1",
         "gscan": "6.2.1"
     },
     "config": {
