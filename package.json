@@ -41,7 +41,7 @@
     "contributors": "https://github.com/TryGhost/zap/graphs/contributors",
     "devDependencies": {
         "bestzip": "3.0.1",
-        "gscan": "6.4.1"
+        "gscan": "6.4.2"
     },
     "config": {
         "posts_per_page": 15,
