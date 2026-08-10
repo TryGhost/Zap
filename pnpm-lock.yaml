@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       bestzip:
-        specifier: 3.0.1
-        version: 3.0.1
+        specifier: 3.0.2
+        version: 3.0.2
       gscan:
         specifier: 6.4.2
         version: 6.4.2(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))
@@ -308,8 +308,8 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  bestzip@3.0.1:
-    resolution: {integrity: sha512-sUOmPTsusjvT/hdflzoGrCreDgtGHx4btDdLw2Ykjpg4hhJWuIlWUd3a4qWdHhcTJ8kHL6JLW/dR/XhCPomB4w==}
+  bestzip@3.0.2:
+    resolution: {integrity: sha512-Zxl7GRh4HQdR4KD/WS+CBrN2aVIs8wa+ozSLrISyxVNG7kl/nragWeHL3vZRfF+UGWO707WjRjboN9CoPBl5kg==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -1562,7 +1562,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  bestzip@3.0.1:
+  bestzip@3.0.2:
     dependencies:
       archiver: 8.0.0
       glob: 13.0.6
