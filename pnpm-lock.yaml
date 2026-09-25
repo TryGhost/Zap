@@ -167,8 +167,8 @@ importers:
   .:
     devDependencies:
       bestzip:
-        specifier: 4.0.0
-        version: 4.0.0
+        specifier: 4.0.1
+        version: 4.0.1
       gscan:
         specifier: 6.6.1
         version: 6.6.1
@@ -279,8 +279,8 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  bestzip@4.0.0:
-    resolution: {integrity: sha512-Hu3lBTGhxJ51PKaMJlhuCUVxEA1MN034R3F0+lHrE/dJkOVxChskXw6OrcgLcUVuB0Sj6bQAOtRIofOKsped8w==}
+  bestzip@4.0.1:
+    resolution: {integrity: sha512-SRDsfTisoK6k6asichcESBfsj7XoFAV0JUaaHyxuC9YmSWVxCYWMoggxZaI2K2HiU+EcGuBAH5q59l8zvGUD9w==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -413,10 +413,6 @@ packages:
 
   isarray@1.0.0:
     resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
-
-  isexe@4.0.0:
-    resolution: {integrity: sha512-FFUtZMpoZ8RqHS3XeXEmHWLA4thH+ZxCv2lOiPIn1Xc7CxrqhWzNSDzD+/chS/zbYezmiwWLdQC09JdQKmthOw==}
-    engines: {node: '>=20'}
 
   lazystream@1.0.1:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
@@ -551,11 +547,6 @@ packages:
   validator@13.15.35:
     resolution: {integrity: sha512-TQ5pAGhd5whStmqWvYF4OjQROlmv9SMFVt37qoCBdqRffuuklWYQlCNnEs2ZaIBD1kZRNnikiZOS1eqgkar0iw==}
     engines: {node: '>= 0.10'}
-
-  which@6.0.1:
-    resolution: {integrity: sha512-oGLe46MIrCRqX7ytPUf66EAYvdeMIZYn3WaocqqKZAxrBpkqHfL/qvTyJ/bTk5+AqHCjXmrv3CEWgy368zhRUg==}
-    engines: {node: ^20.17.0 || >=22.9.0}
-    hasBin: true
 
   wordwrap@1.0.0:
     resolution: {integrity: sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==}
@@ -716,11 +707,10 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  bestzip@4.0.0:
+  bestzip@4.0.1:
     dependencies:
       archiver: 8.0.0
       glob: 13.0.6
-      which: 6.0.1
       yargs: 16.2.2
     transitivePeerDependencies:
       - bare-abort-controller
@@ -862,8 +852,6 @@ snapshots:
 
   isarray@1.0.0: {}
 
-  isexe@4.0.0: {}
-
   lazystream@1.0.1:
     dependencies:
       readable-stream: 2.3.8
@@ -1004,10 +992,6 @@ snapshots:
   util-deprecate@1.0.2: {}
 
   validator@13.15.35: {}
-
-  which@6.0.1:
-    dependencies:
-      isexe: 4.0.0
 
   wordwrap@1.0.0: {}
 
