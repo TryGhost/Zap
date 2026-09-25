@@ -40,7 +40,7 @@
     "bugs": "https://github.com/TryGhost/zap/issues",
     "contributors": "https://github.com/TryGhost/zap/graphs/contributors",
     "devDependencies": {
-        "bestzip": "4.0.0",
+        "bestzip": "4.0.1",
         "gscan": "6.6.1"
     },
     "config": {
