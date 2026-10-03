@@ -167,8 +167,8 @@ importers:
   .:
     devDependencies:
       bestzip:
-        specifier: 4.0.1
-        version: 4.0.1
+        specifier: 4.0.2
+        version: 4.0.2
       gscan:
         specifier: 6.6.1
         version: 6.6.1
@@ -279,8 +279,8 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  bestzip@4.0.1:
-    resolution: {integrity: sha512-SRDsfTisoK6k6asichcESBfsj7XoFAV0JUaaHyxuC9YmSWVxCYWMoggxZaI2K2HiU+EcGuBAH5q59l8zvGUD9w==}
+  bestzip@4.0.2:
+    resolution: {integrity: sha512-7Yi7FrL/tcyhE+mYxPaZKTRcx7liRYS64qVuRY3parEcKwq/avjMhBbgovhaEByvVlhgEZT7nonHnKeu6pfj8A==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -707,7 +707,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  bestzip@4.0.1:
+  bestzip@4.0.2:
     dependencies:
       archiver: 8.0.0
       glob: 13.0.6
