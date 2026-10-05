@@ -175,11 +175,11 @@ importers:
 
 packages:
 
-  '@tryghost/debug@2.3.14':
-    resolution: {integrity: sha512-CuxfDTsuS8uPnAeJVCaokd7izIDhUzIi/mZo8ytKgKupx/K5UY03Pu0KwWJCuRRV2ZrDYeq00p8bBCM/H8uScg==}
+  '@tryghost/debug@2.3.16':
+    resolution: {integrity: sha512-xnFUf3+PrTO2hQXIlAd4YeDjTeZZ5Qa0dDVO8FCKNkf63DQTQTPoOJ8WygVFfqBnIYcdbB534Mo5kCzIfQPXDQ==}
 
-  '@tryghost/errors@3.3.14':
-    resolution: {integrity: sha512-Z49f+Wy6benC35x+x30FAjBWDMllJN7mMg5mWrOtxK67ipAflKlcQgubT03ZTYbbPPc9J8Kx2In7fOcvyp6a5g==}
+  '@tryghost/errors@3.4.1':
+    resolution: {integrity: sha512-kUsC+QDJC+C7z8KPhwSxR0uXwloTNxRL9yzvyV7X/XMT2Wc/tz114uQgrqUMVbEWYhyzlNa7WvlqcOsyK0wo+g==}
 
   '@tryghost/mongo-knex@0.11.2':
     resolution: {integrity: sha512-0l7L/J609p+12+rA15Muya1JoIeSfBxIUZRB2FfROtJ2U+FTEOzZ/c0HgxB8eAArJMW2VXECmLCAbNUwygRzfg==}
@@ -193,17 +193,17 @@ packages:
   '@tryghost/nql@0.13.4':
     resolution: {integrity: sha512-XE3lEpkqZM3ueOyKz5suwb2W4muWAM/YfYYpXHrnu0H7r46Xuo7FZm1s6Ga2Cut/STtuax5E6NfZ1AFv017X4w==}
 
-  '@tryghost/pretty-cli@3.3.14':
-    resolution: {integrity: sha512-zL+CX9BmciOx0mb1mG5lUSQQg+Dg57ntj6m0TAkaaSQon3lovrIbHznwpWkHLyggm9f+BltK5JTOdFqT/5oTpw==}
+  '@tryghost/pretty-cli@3.3.16':
+    resolution: {integrity: sha512-TlU3sx71YONFlE0P7+4uYWRg5ns8Cf9U+afacBLa1+to9XhhAonuZw/Ta2YcLtdlySvTSuL1T342TkRVOtUDlQ==}
 
-  '@tryghost/root-utils@2.3.14':
-    resolution: {integrity: sha512-VmHSaPdjTCQNOTNvpLTmphi+TdorWbGbjgqTeCYFPgsWw3XUlByWaERYe3PV2JOmd2XeAhpG2KCegrmnPWMlKA==}
+  '@tryghost/root-utils@2.3.16':
+    resolution: {integrity: sha512-goAiGfO2tyXxoyLJbTHktShOnziwSGa9lvBKq6zwvdz4/WGYRdecfovtb0n4aRTTYeKIlnsghg0v1g64LMIRug==}
 
-  '@tryghost/zip@3.5.13':
-    resolution: {integrity: sha512-p6RQqbpXwUqngWdVG+b8v+OXyO0O4reVLqbIJmHJE8IPoFrZcJxrbVxQ2rX70lYleSvsSZ8y8UoCnTZ6QUhR+w==}
+  '@tryghost/zip@3.5.15':
+    resolution: {integrity: sha512-GPRg3doLWGYC+ZmCr2Sp2nrhb8YGV+omG9dIDK1IIWJOLXSfx7g50M71XzAYU4uXYFalZPpd0gjy3+FKTLvpaA==}
 
-  '@types/node@26.6.2':
-    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
+  '@types/node@26.6.4':
+    resolution: {integrity: sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==}
 
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
@@ -247,8 +247,8 @@ packages:
       bare-abort-controller:
         optional: true
 
-  bare-fs@4.8.1:
-    resolution: {integrity: sha512-N1nnXdHZAOSstz0XiHikGS4HGMH4CnSwhqWdGQQMqqdvp4Jybm9sE3R1WVnpWVd4SFkc8ryPDBLViNLwiEqECg==}
+  bare-fs@4.8.2:
+    resolution: {integrity: sha512-+ZI68KHMUvosXfKbg/UOHK0tbCdRnegbvPEdEcZ3Nd6TetieQsJPRXBRXPdLyy8+3VSEbPXtsumTpEtt78xv9w==}
     engines: {bare: '>=1.28.0'}
     peerDependencies:
       bare-buffer: '*'
@@ -524,8 +524,8 @@ packages:
     resolution: {integrity: sha512-LDt2stNTp4bVPMgd70Jj9PWrSa4batl+bv+Ea5NLNGT7ufc4oQPtRfQ73wbddNV6RilaPqnEt6y1Wkm5FVTNEg==}
     engines: {node: '>=4'}
 
-  tar-stream@3.2.1:
-    resolution: {integrity: sha512-nqsEO8zLZJvrOMdEwkA0QdCLFbetHMn95Zqu4fKwX+hkaTWJPZZOrxx/PwtxoK0MMGQmBQNRW3CPs8IFYQz4cQ==}
+  tar-stream@3.2.2:
+    resolution: {integrity: sha512-+8NeqHRjQWH9nYlwo2gamAMImZCVzI4UoEgDpWorBt9OEfppiZn+uSkskzQKPWIZyji/C8fpWO7u69G0DX0tbg==}
 
   teex@1.0.1:
     resolution: {integrity: sha512-eYE6iEI62Ni1H8oIa7KlDU6uQBtqr4Eajni3wX7rpfXD8ysFx8z0+dri+KWEPWpBsxXfxu58x/0jvTVT1ekOSg==}
@@ -579,14 +579,14 @@ packages:
 
 snapshots:
 
-  '@tryghost/debug@2.3.14':
+  '@tryghost/debug@2.3.16':
     dependencies:
-      '@tryghost/root-utils': 2.3.14
+      '@tryghost/root-utils': 2.3.16
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
 
-  '@tryghost/errors@3.3.14': {}
+  '@tryghost/errors@3.4.1': {}
 
   '@tryghost/mongo-knex@0.11.2':
     dependencies:
@@ -613,19 +613,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@tryghost/pretty-cli@3.3.14':
+  '@tryghost/pretty-cli@3.3.16':
     dependencies:
       chalk: 6.0.0
       sywac: 1.3.0
 
-  '@tryghost/root-utils@2.3.14':
+  '@tryghost/root-utils@2.3.16':
     dependencies:
       caller: 1.1.0
       find-root: 1.1.0
 
-  '@tryghost/zip@3.5.13':
+  '@tryghost/zip@3.5.15':
     dependencies:
-      '@tryghost/errors': 3.3.14
+      '@tryghost/errors': 3.4.1
       archiver: 8.0.0
       extract-zip: 2.0.1
     transitivePeerDependencies:
@@ -634,14 +634,14 @@ snapshots:
       - react-native-b4a
       - supports-color
 
-  '@types/node@26.6.2':
+  '@types/node@26.6.4':
     dependencies:
       undici-types: 8.9.0
     optional: true
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.4
     optional: true
 
   abort-controller@3.0.0:
@@ -663,7 +663,7 @@ snapshots:
       normalize-path: 3.0.0
       readable-stream: 4.7.0
       readdir-glob: 3.0.0
-      tar-stream: 3.2.1
+      tar-stream: 3.2.2
       zip-stream: 7.0.5
     transitivePeerDependencies:
       - bare-abort-controller
@@ -678,7 +678,7 @@ snapshots:
 
   bare-events@2.9.2: {}
 
-  bare-fs@4.8.1:
+  bare-fs@4.8.2:
     dependencies:
       bare-events: 2.9.2
       bare-path: 3.1.2
@@ -817,11 +817,11 @@ snapshots:
 
   gscan@6.6.1:
     dependencies:
-      '@tryghost/debug': 2.3.14
-      '@tryghost/errors': 3.3.14
+      '@tryghost/debug': 2.3.16
+      '@tryghost/errors': 3.4.1
       '@tryghost/nql': 0.13.4
-      '@tryghost/pretty-cli': 3.3.14
-      '@tryghost/zip': 3.5.13
+      '@tryghost/pretty-cli': 3.3.16
+      '@tryghost/zip': 3.5.15
       chalk: 6.0.0
       handlebars: 4.7.9
       lodash: 4.18.1
@@ -959,10 +959,10 @@ snapshots:
 
   sywac@1.3.0: {}
 
-  tar-stream@3.2.1:
+  tar-stream@3.2.2:
     dependencies:
       b4a: 1.9.0
-      bare-fs: 4.8.1
+      bare-fs: 4.8.2
       fast-fifo: 1.3.2
       streamx: 2.28.1
     transitivePeerDependencies:
