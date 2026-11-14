@@ -163,7 +163,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  minimatch@>=7 <11.0.1: 11.0.5
+  minimatch@>=7 <11.0.1: 11.0.8
   bestzip>glob: 14.0.4
 
 importers:
@@ -421,6 +421,10 @@ packages:
 
   minimatch@11.0.5:
     resolution: {integrity: sha512-snPlVppFcYWfLLFQGhDxUyBcHNtMlWmn3jtj7pEaO+DP8pqL0IvAzXhMYmn1z9ASNtgmwLBdFxSf4tMUB0OTKA==}
+    engines: {node: 20 || >=22}
+
+  minimatch@11.0.8:
+    resolution: {integrity: sha512-nFQuYSTVrGvysVBps5Ih+0BdnYFN/Cj3C816r6+p7yK+FHrVLGE4O4N9AFwykrlNlvM2HYt+Rad1Uiro6h88Ig==}
     engines: {node: 20 || >=22}
 
   minimist@1.2.8:
@@ -818,6 +822,11 @@ snapshots:
       '@isaacs/nonrecursive-glob-match': 1.1.0
       brace-expansion: 5.0.12
 
+  minimatch@11.0.8:
+    dependencies:
+      '@isaacs/nonrecursive-glob-match': 1.1.0
+      brace-expansion: 5.0.12
+
   minimist@1.2.8: {}
 
   minipass@7.1.3: {}
@@ -859,7 +868,7 @@ snapshots:
 
   readdir-glob@3.0.0:
     dependencies:
-      minimatch: 11.0.5
+      minimatch: 11.0.8
 
   require-directory@2.1.1: {}
 
